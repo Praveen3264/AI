@@ -1,0 +1,5 @@
+def pos()
+   a=eval(input("enter positive numbers"))
+   b=[i for i in a if i > 0]
+   print(b)
+pos()
